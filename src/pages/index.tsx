@@ -6,12 +6,15 @@ import Footer from "../components/Footer"
 import Example from "../components/Example";
 import ExampleChild from "../components/ExampleChild";
 import Header from "../components/Header";
+import Bigtitle from "../components/Bigtitle";
 
 const Home: NextPage = () => {
   return (
     <div>
 
       <Header/>
+      <Bigtitle/>
+      
       <ExampleChild title="Address">
         Element...
         Element 2 ....
