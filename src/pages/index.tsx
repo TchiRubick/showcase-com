@@ -7,6 +7,9 @@ import Example from "../components/Example";
 import ExampleChild from "../components/ExampleChild";
 import Header from "../components/Header";
 import Bigtitle from "../components/Bigtitle";
+import Firstimage from "../components/Firstimage";
+import Bigtitletwo from "../components/Bigtitletwo";
+
 
 const Home: NextPage = () => {
   return (
@@ -14,6 +17,9 @@ const Home: NextPage = () => {
 
       <Header/>
       <Bigtitle/>
+      <Firstimage/>
+      <Bigtitletwo/>
+
       
       <ExampleChild title="Address">
         Element...
