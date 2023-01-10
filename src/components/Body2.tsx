@@ -11,12 +11,12 @@ const Body2: React.FC<tProps> = (props) => {
   const { children, title, text, text2 } = props;
 
   return (
-    <div className='flex justify-end flex-col'>
+    <div className='flex flex-col'>
       <span className='text-blue-700 font-semibold font-sans mb-7'>
         {title}
       </span>
       <div>
-        <h1 className='text-black text-5xl font-sans font-bold mb-7'>
+        <h1 className='text-black text-6xl font-sans font-bold mb-7'>
           {text}
         </h1>
       </div>
@@ -25,8 +25,10 @@ const Body2: React.FC<tProps> = (props) => {
           {text2}
         </span>
       </div>
-      <div className='bnt btn-primary w-1/4 h-9 p-auto mt-6 px-3 pt-1 cursor-pointer'>
-        {children}
+      <div className='mt-6'>
+        <button className='active:bg-blue-800 hover:bg-blue-600 bg-blue-700 h-11 w-40 cursor-pointer font-medium  text-white text-sm'>
+          {children}
+        </button> 
       </div>
     </div>
   );

@@ -9,13 +9,13 @@ const Image4: React.FC<tProps> = (props) => {
   const {children, text } = props;
 
   return (
-    <div  className='md:flex mx-20 w-auto' style={{
+    <div  className='flex flex-row mx-10 bg-no-repeat' style={{
        backgroundImage: 'url("https://images.pexels.com/photos/1187974/pexels-photo-1187974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")'
     }}>
-      <span className='text-lg font-medium flex items-center w-2/3'>{text}</span>
-      <div className='justify-items-end w-2/3 h-100%'>
-        {children}
-      </div>
+      <span className='text-lg font-medium flex items-center w-auto px-20'>{text}</span>
+      <section className='w-auto'>
+       {children}
+      </section>
     </div>
   )
 }
