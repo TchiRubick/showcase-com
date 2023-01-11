@@ -12,6 +12,8 @@ import Bigtitle from "../components/Bigtitle";
 import Firstimage from "../components/Firstimage";
 import Bigtitletwo from "../components/Bigtitletwo";
 import Body1 from "../components/Body1";
+import Textone from "../components/Textone";
+import Secondimage from "../components/Secondimage";
 
 
 const Home: NextPage = () => {
@@ -21,6 +23,8 @@ const Home: NextPage = () => {
       <Bigtitle/>
       <Firstimage/>
       <Bigtitletwo/>
+      <Textone/>
+      <Secondimage/>
 
       
       <ExampleChild title="Address">
