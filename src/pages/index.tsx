@@ -10,7 +10,8 @@ import Bigtitle from "../components/Bigtitle";
 import Firstimage from "../components/Firstimage";
 import Bigtitletwo from "../components/Bigtitletwo";
 import Body1 from "../components/Body1";
-import Image2 from "../components/Image2";
+import Textone from "../components/Textone";
+import Secondimage from "../components/Secondimage";
 
 
 const Home: NextPage = () => {
@@ -20,7 +21,8 @@ const Home: NextPage = () => {
       <Bigtitle/>
       <Firstimage/>
       <Bigtitletwo/>
-      <Image2/>
+      <Textone/>
+      <Secondimage/>
       <Body1/>
       <Body/>
       <Image4 text="Trioli is not only deliver the design for our product,
