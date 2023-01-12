@@ -3,7 +3,7 @@ import Menu from "./Menu";
 
 const Footer: React.FC = () => {
   return (
-    <>
+    <div className="mt-36">
       <div className="flex flex-nowrap justify-between mx-10">
         <Menu title="Address">
           <span>123009, 123012 <br /> Moscow street A.Pushkin</span> 
@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
           <p className="text-sm text-inherit">CopyRight 2021 By Imran Molla</p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

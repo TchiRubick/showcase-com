@@ -4,7 +4,7 @@ const Image3: React.FC = () => {
 
 
   return (
-    <div>
+    <div className="">
       <img src="https://www.renovation-et-decoration.com/wp-content/uploads/2020/04/decoration-maison.jpg" alt="room" />
     </div>
   );

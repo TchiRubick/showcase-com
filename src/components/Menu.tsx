@@ -14,7 +14,7 @@ const Menu: React.FC<tProps> = (props) => {
         {title}
       </div>   
       <div>
-        <span className="text-sm">
+        <span className="text-sm text-black">
           {children}
         </span>
       </div>

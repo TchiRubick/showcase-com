@@ -3,8 +3,6 @@ import React from "react";
 import type { NextPage } from "next";
 
 import Footer from "../components/Footer"
-import Example from "../components/Example";
-import ExampleChild from "../components/ExampleChild";
 import Header from "../components/Header";
 import Image4 from "../components/Image4";
 import Body from "../components/Body"
@@ -12,6 +10,7 @@ import Bigtitle from "../components/Bigtitle";
 import Firstimage from "../components/Firstimage";
 import Bigtitletwo from "../components/Bigtitletwo";
 import Body1 from "../components/Body1";
+import Image2 from "../components/Image2";
 
 
 const Home: NextPage = () => {
@@ -21,24 +20,23 @@ const Home: NextPage = () => {
       <Bigtitle/>
       <Firstimage/>
       <Bigtitletwo/>
-
-      
-      <ExampleChild title="Address">
-        Element...
-        Element 2 ....
-      </ExampleChild>
-      <ExampleChild title="Titre">
-        Titre elemeny...
-      </ExampleChild>
-      <ExampleChild title="">
-      </ExampleChild>
-      <Example title="Andy" />
+      <Image2/>
       <Body1/>
       <Body/>
       <Image4 text="Trioli is not only deliver the design for our product,
         they also deliver their thinking process, alot of usability and exprerience input.
         Our conversion rate turns double! What a big impact!">
-        <img src="https://letsenhance.io/static/334225cab5be263aad8e3894809594ce/75c5a/MainAfter.jpg" alt="Femme" />
+          <div className="md:flex">
+           <img className="object-cover w-12 h-12 rounded-full" src="https://www.photobox.fr/blog/wp-content/uploads/sites/3/2015/11/image1.jpeg" alt="avatar" />
+            <figcaption className="font-medium ml-6">
+              <div className="text-white">
+                <a href="#">Margeret Sherman</a>  
+             </div>
+              <div className="text-slate-700 dark:text-slate-800">
+                <a href="#">Ceo of Square</a> 
+             </div>
+           </figcaption>
+          </div>
       </Image4>
       <Footer />
     </div>
