@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { FaMoon, FaSun } from "react-icons/fa";
+import ThemeToggler from "./ThemeToggler";
 
 const Header: React.FC = () => {
   
@@ -13,7 +14,7 @@ const Header: React.FC = () => {
             <a href="#">Project </a>
             <a href="#">Blog</a>
             <a href="#">Contact Us</a>
-            <FaMoon/> 
+            
           </div>
           <Link
               href="/letstalk" 
