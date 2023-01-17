@@ -14,6 +14,7 @@ import Textone from "../components/Textone";
 import Secondimage from "../components/Secondimage";
 
 
+
 const Home: NextPage = () => {
   return (
     <div>
