@@ -16,11 +16,10 @@ const MyApp: AppType<{ session: Session | null }> = ({
   return (
     <>
     <SessionProvider session={session}>
-      <Component {...pageProps} />
+      <ThemeProvider enableSystem={true} attribute="class">
+        <Component {...pageProps} />
+      </ThemeProvider>
     </SessionProvider>
-    <ThemeProvider enableSystem={true} attribute="class">
-      <Component {...pageProps} />
-    </ThemeProvider>
     </>
     
     

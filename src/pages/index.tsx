@@ -12,12 +12,12 @@ import Bigtitletwo from "../components/Bigtitletwo";
 import Body1 from "../components/Body1";
 import Textone from "../components/Textone";
 import Secondimage from "../components/Secondimage";
-
+import ThemeToggler from "../components/ThemeToggler";
 
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className=" dark:bg-gray-800 dark:border-gray-700 pt-10 transition duration-300">
       <Header/>
       <Bigtitle/>
       <Firstimage/>

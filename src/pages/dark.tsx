@@ -14,18 +14,13 @@ import Textone from "../components/Textone";
 import Secondimage from "../components/Secondimage";
 
 
-const Dark: React.FC = () => {
+const Dark: NextPage = () => {
     
 
   return (
-    <div>
-      
-        <ThemeToggler />
-        <div className=" dark:bg-gray-800 dark:border-gray-700 mt-10 transition duration-300"> 
-        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-             a
-            </p>
-            <Header/>
+    <div className=" dark:bg-gray-800 dark:border-gray-700 pt-10 transition duration-300">
+        <div> 
+      <Header/>
       <Bigtitle/>
       <Firstimage/>
       <Bigtitletwo/>
