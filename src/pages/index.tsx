@@ -12,7 +12,7 @@ import Bigtitletwo from "../components/Bigtitletwo";
 import Body1 from "../components/Body1";
 import Textone from "../components/Textone";
 import Secondimage from "../components/Secondimage";
-import ThemeToggler from "../components/ThemeToggler";
+
 
 
 const Home: NextPage = () => {
