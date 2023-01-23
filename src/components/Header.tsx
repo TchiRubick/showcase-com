@@ -8,20 +8,17 @@ import { useRouter } from "next/router";
 
 const Header: React.FC = () => {
   const router = useRouter();
+  const currentRoute = router.pathname;
   return (
     <div>
       <div className="flex justify-between mt-6 font-sans">
        <Link  href="/"> <p className="font-bold text-2xl flex ml-10 text-slate-800 dark:text-slate-100 ">TRIOLI</p></Link> 
         <div className="flex justify-center space-x-8 font-bold">     
-        <div className="mt-1  h-0 w-0 border-y-8 border-y-transparent border-l-[6px] border-l-blue-600"></div><Link  href="/" className="text-slate-800 dark:text-slate-100">Home</Link> 
-            <Link  href="/project"className="text-slate-800 dark:text-slate-100">Project</Link>
-            <Link  href="/blog"className="text-slate-800 dark:text-slate-100">Blog</Link>
+            <div className="flex"><FaPlay className={currentRoute === '/' ?  "text-blue-600 dark:text-white " : "text-white dark:text-slate-800 "  }/><Link href="/" className="text-slate-800 dark:text-slate-100" >Home</Link></div> 
+            <div className="flex"><FaPlay className={currentRoute === '/project' ?  "text-blue-600 dark:text-white " : "text-white dark:text-slate-800 "  }/><Link href="/project" className="text-slate-800 dark:text-slate-100" >Project</Link></div>
+            <div className="flex"><FaPlay className={currentRoute === '/blog' ?  "text-blue-600 dark:text-white " : "text-white dark:text-slate-800 "  }/><Link href="/blog" className="text-slate-800 dark:text-slate-100" >Blog</Link></div>
+            <div className="flex"><FaPlay className={currentRoute === '/contactus' ?  "text-blue-600 dark:text-white " : "text-white dark:text-slate-800 "  }/><Link href="/contactus" className="text-slate-800 dark:text-slate-100" >Contactus</Link></div>
 
-            <li className={router.pathname == "/blog" ? "active" : ""}>
-        <Link href="/blog">Blog</Link>
-      </li>
-
-            <Link  href="/contactus"className="text-slate-800 dark:text-slate-100">Contactus</Link>
           </div>
           <div className="flex">
           <div className="pr-10"><ThemeToggler/></div>
