@@ -1,5 +1,5 @@
 import React from "react";
-
+import ThemeToggler from "../components/ThemeToggler";
 import type { NextPage } from "next";
 
 import Footer from "../components/Footer"
@@ -14,10 +14,12 @@ import Textone from "../components/Textone";
 import Secondimage from "../components/Secondimage";
 
 
+const Dark: NextPage = () => {
+    
 
-const Home: NextPage = () => {
   return (
     <div className=" dark:bg-gray-800 dark:border-gray-700 pt-10 transition duration-300">
+        <div> 
       <Header/>
       <Bigtitle/>
       <Firstimage/>
@@ -42,8 +44,13 @@ const Home: NextPage = () => {
           </div>
       </Image4>
       <Footer />
-    </div>
-  );
-};
 
-export default Home;
+
+
+        </div>
+      </div>
+    
+  );
+  };
+  
+  export default Dark;

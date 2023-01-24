@@ -5,7 +5,7 @@ const Image2: React.FC = () => {
     <div className="md:flex sm:w-full mt-16">
       <div className="dropdown dropdown-end w-full">
         <label tabIndex={0} 
-          className="btn w-full h-96 bg-cover  -none border-none pt-80 text-white font-semibold" 
+          className="btn w-full h-96 bg-cover  -none border-none pt-80 text-white font-semibold dark:text-slate-100" 
           style={{
             backgroundImage:"url('https://www.deubaxxl.fr/media/image/be/88/a6/de_100937d_11_520x520.jpg')"
           }}>
@@ -19,7 +19,7 @@ const Image2: React.FC = () => {
         </ul>
       </div>
       <div className="dropdown dropdown-end w-full">
-        <label tabIndex={0} className="btn w-full bg-cover  h-96 pt-80 rounded-none border-none text-white font-semibold" style={{
+        <label tabIndex={0} className="btn w-full bg-cover  h-96 pt-80 rounded-none border-none text-white font-semibold dark:text-slate-100" style={{
           backgroundImage:"url('https://i0.wp.com/windsorcourthotel.com/wp-content/uploads/2019/04/header-rooms.jpg?resize=480%2C380&ssl=1')"
         }}>
             Author`s Landscamping
@@ -39,7 +39,7 @@ const Image2: React.FC = () => {
         </ul>
       </div>
       <div className="dropdown dropdown-end w-full">
-        <label tabIndex={0} className="btn  bg-cover  w-full h-96 pt-80 rounded-none border-none text-white font-semibold" style={{
+        <label tabIndex={0} className="btn  bg-cover  w-full h-96 pt-80 rounded-none border-none text-white font-semibold dark:text-slate-100" style={{
           backgroundImage:"url('https://www.pwho.com/media/original_images/Hanson.jpg.380x380_q80_crop_focal_area-640%2C480%2C1280%2C960_size_canvas_upscale_zoom-100.jpg')"
         }}>
           Enclosed Area

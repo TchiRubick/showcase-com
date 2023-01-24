@@ -9,21 +9,21 @@ const Textone: React.FC = () => {
             <div>
               <FaSearchLocation className="pl-20 pt-16 absolute " size={150} color="grey" /> 
               <FaHome className=" pl-14  relative brightness-0" size={150}/> 
-              <div className="font-bold text-black text-2xl mt-10">Property Insurance</div>
-              <div className="pt-5 leading-8 text-slate-500 ">Real estate is a class of "realproperty" that <br/>includes land and anything permanently <br/> attached whether natural.</div>
+              <div className="font-bold text-black text-2xl mt-10 dark:text-slate-100">Property Insurance</div>
+              <div className="pt-5 leading-8 text-slate-500 dark:text-slate-100 ">Real estate is a class of "realproperty" that <br/>includes land and anything permanently <br/> attached whether natural.</div>
             </div>
             
             <div>
               <FaHouseUser className="pl-20 pt-16 absolute " size={150} color="grey" />
               <FaScroll className=" pl-14  relative brightness-0" size={150}/>
-              <div className="font-bold text-black text-2xl mt-10">Tax Advantage</div>
-              <div className="pt-5 leading-8 text-slate-500">Real estate is a class of "realproperty" that <br/>includes land and anything permanently <br/> attached whether natural.</div>
+              <div className="font-bold text-black text-2xl mt-10 dark:text-slate-100">Tax Advantage</div>
+              <div className="pt-5 leading-8 text-slate-500 dark:text-slate-100">Real estate is a class of "realproperty" that <br/>includes land and anything permanently <br/> attached whether natural.</div>
             </div>
             <div>
                 <FaEyeSlash className="pl-20 pt-16 absolute " size={150} color="grey" />
                 <FaHouseUser className=" pl-14  relative brightness-0" size={150} />
-                 <div className="font-bold text-black text-2xl mt-10">Lowest Comission</div>
-                 <div className="pt-5 leading-8 text-slate-500">Real estate is a class of "realproperty" that <br/>includes land and anything permanently <br/> attached whether natural.</div>
+                 <div className="font-bold text-black text-2xl mt-10 dark:text-slate-100">Lowest Comission</div>
+                 <div className="pt-5 leading-8 text-slate-500 dark:text-slate-100">Real estate is a class of "realproperty" that <br/>includes land and anything permanently <br/> attached whether natural.</div>
             </div>
         </div>  
         

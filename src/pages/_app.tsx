@@ -6,15 +6,23 @@ import { SessionProvider } from "next-auth/react";
 import { api } from "../utils/api";
 
 import "../styles/globals.css";
+import { ThemeProvider } from 'next-themes';
+
 
 const MyApp: AppType<{ session: Session | null }> = ({
   Component,
   pageProps: { session, ...pageProps },
 }) => {
   return (
+    <>
     <SessionProvider session={session}>
-      <Component {...pageProps} />
+      <ThemeProvider enableSystem={true} attribute="class">
+        <Component {...pageProps} />
+      </ThemeProvider>
     </SessionProvider>
+    </>
+    
+    
   );
 };
 
