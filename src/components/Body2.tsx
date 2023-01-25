@@ -25,7 +25,7 @@ const Body2: React.FC<tProps> = (props) => {
           {text2}
         </span>
       </div>
-      <div className=''>
+      <div>
         <button className='active:bg-blue-800 hover:bg-blue-600 bg-blue-700 h-11 w-40 cursor-pointer font-medium  text-white text-sm dark:text-slate-100'>
           {children}
         </button> 

@@ -1,18 +1,15 @@
 import React from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import { type NextPage } from "next";
+import Layout from "../components/Layout";
 
-const project: React.FC = () => {
+const Project: NextPage = () => {
   return(
     <div>
-      <div>
-        <Header/>
-      </div>
-      <div>
-        <Footer/>
-      </div>
+      <Layout>
+        
+      </Layout>
     </div>
   );
 };
 
-export default project;
+export default Project;
