@@ -1,8 +1,8 @@
 import React from "react";
 import Body2 from "./Body2";
-import Image31 from "./Image31";
+import ImageAboutUS from "./ImageAboutUS";
 
-const Body1: React.FC = () => {
+const AboutUS: React.FC = () => {
   return(
     <div className="flex flex-nowrap space-x-40 mx-10 mt-36">
       <div className="w-3/4 dark:text-slate-100">
@@ -11,10 +11,10 @@ const Body1: React.FC = () => {
         </Body2>
       </div>
       <div className="w-full">
-        <Image31/>
+        <ImageAboutUS/>
       </div>
     </div>
   );
 };
 
-export default Body1;
+export default AboutUS;

@@ -5,11 +5,11 @@ import type { NextPage } from "next";
 import Footer from "../components/Footer"
 import Header from "../components/Header";
 import Image4 from "../components/Image4";
-import Body from "../components/Body"
+import Specs from "../components/Specs"
 import Bigtitle from "../components/Bigtitle";
 import Firstimage from "../components/Firstimage";
 import Bigtitletwo from "../components/Bigtitletwo";
-import Body1 from "../components/Body1";
+import AboutUS from "../components/AboutUS";
 import Textone from "../components/Textone";
 import Secondimage from "../components/Secondimage";
 
@@ -24,8 +24,8 @@ const Home: NextPage = () => {
       <Bigtitletwo/>
       <Textone/>
       <Secondimage/>
-      <Body1/>
-      <Body/>
+      <AboutUS/>
+      <Specs/>
       <Image4 text="Trioli is not only deliver the design for our product,
         they also deliver their thinking process, alot of usability and exprerience input.
         Our conversion rate turns double! What a big impact!">
