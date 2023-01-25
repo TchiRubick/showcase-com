@@ -1,8 +1,8 @@
 import React from "react";
 import { string } from "zod";
-import img from "../pages/image/canapes-cocktail.jpg";
-import gamme from "../pages/image/gamme.jpg";
-import elio from "../pages/image/elio.jpg";
+import img from "../image/canapes-cocktail.jpg";
+import gamme from "../image/gamme.jpg";
+import elio from "../image/elio.jpg";
 import Image from 'next/image';
 
 const Firstimage: React.FC = () => {

@@ -34,7 +34,7 @@ const Letstalk: React.FC = () => {
   };
 
   return(
-    <div>
+    <div className="dark:bg-slate-800 pt-10">
       <div>
         <Header/>
       </div> 

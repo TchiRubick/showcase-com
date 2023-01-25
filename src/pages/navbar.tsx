@@ -4,7 +4,7 @@ const Nav = () => {
   
   return (
       <div>
-        <div className="flex justify-between mt-6 font-sans">
+        <div className="flex justify-between pt-10 font-sans">
           <a href="#" className="flex ml-10"> <p className="font-bold text-2xl ">TRIOU</p></a>
           <div className="flex justify-center space-x-8 font-bold">     
             <div className="mt-1  h-0 w-0 border-y-8 border-y-transparent border-l-[6px] border-l-blue-600 "></div><a href="#">Home</a>

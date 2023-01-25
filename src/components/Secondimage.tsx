@@ -1,7 +1,7 @@
 import React from "react";
-import desk from "../pages/image/desk.jpg";
-import bed from "../pages/image/bed.jpg";
-import outdoor from "../pages/image/outdoor.jpg";
+import desk from "../image/desk.jpg";
+import bed from "../image/bed.jpg";
+import outdoor from "../image/outdoor.jpg";
 import Image from 'next/image';
 
 const Secondimage: React.FC = () => {

@@ -5,11 +5,11 @@ import type { NextPage } from "next";
 import Footer from "../components/Footer"
 import Header from "../components/Header";
 import Image4 from "../components/Image4";
-import Body from "../components/Body"
+import Body from "../components/Specs"
 import Bigtitle from "../components/Bigtitle";
 import Firstimage from "../components/Firstimage";
 import Bigtitletwo from "../components/Bigtitletwo";
-import Body1 from "../components/Body1";
+import Body1 from "../components/AboutUS";
 import Textone from "../components/Textone";
 import Secondimage from "../components/Secondimage";
 
