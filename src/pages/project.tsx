@@ -4,12 +4,10 @@ import Footer from "../components/Footer";
 
 const project: React.FC = () => {
   return(
-    <div>
-      <div>
-        <Header/>
-      </div>
-      <div>
-        <Footer/>
+    <div className=" dark:bg-gray-800 dark:border-gray-700 pt-10 transition duration-300">
+      <Header/>
+      <div className="pt-72">
+      <Footer/>
       </div>
     </div>
   );
