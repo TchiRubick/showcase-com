@@ -11,12 +11,12 @@ const Body2: React.FC<tProps> = (props) => {
   const { children, title, text, text2 } = props;
 
   return (
-    <div className='flex flex-col space-y-12'>
-      <span className='text-blue-700 font-semibold font-sans dark:text-slate-100'>
+    <div className='flex flex-col space-y-12 '>
+      <span className='text-blue-700 font-semibold font-sans dark:text-blue-700'>
         {title}
       </span>
       <div>
-        <h1 className='text-black text-6xl font-sans font-bold dark:text-slate-100'>
+        <h1 className='sm:h-1/2 text-black text-6xl font-sans font-bold dark:text-slate-100'>
           {text}
         </h1>
       </div>

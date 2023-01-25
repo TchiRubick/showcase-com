@@ -1,5 +1,5 @@
 import React from "react";
-import {   FaHome, FaHouseUser, FaScroll } from 'react-icons/fa';
+import { FaHome, FaHouseUser, FaScroll } from 'react-icons/fa';
 
 const textone = () => {
   

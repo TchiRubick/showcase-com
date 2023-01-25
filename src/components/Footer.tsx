@@ -1,5 +1,7 @@
 import React from "react";
+import { BiArrowFromBottom } from "react-icons/bi";
 import Menu from "./Menu";
+
 
 const Footer: React.FC = () => {
   return (
@@ -33,7 +35,7 @@ const Footer: React.FC = () => {
         </div>
         <div className="">
           <button className="text-sm text-inherit dark:text-slate-100">
-            Back On Top
+            Back On Top<BiArrowFromBottom />
           </button>
         </div>
         <div className="">
