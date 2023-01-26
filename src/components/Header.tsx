@@ -6,7 +6,7 @@ import ThemeToggler from "./ThemeToggler";
 
 const menus = [
   { url: '/', text: 'Home' },
-  { url: '/Project', text:'Project'},
+  { url: '/project', text:'Project'},
   { url: '/blog', text: 'Blog' },
   { url: '/contactus', text: 'Contact Us'}
 ];
