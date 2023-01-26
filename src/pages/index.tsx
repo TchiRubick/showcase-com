@@ -3,7 +3,7 @@ import React from "react";
 import type { NextPage } from "next";
 
 import Layout from "../components/Layout";
-import Image4 from "../components/Image4";
+import LastBlock from "../components/LastBlock";
 import Specs from "../components/Specs"
 import Bigtitle from "../components/Bigtitle";
 import Firstimage from "../components/Firstimage";
@@ -25,7 +25,7 @@ const Home: NextPage = () => {
         <Secondimage/>
         <AboutUS/>
         <Specs/>
-        <Image4 text="Trioli is not only deliver the design for our product,
+        <LastBlock text="Trioli is not only deliver the design for our product,
           they also deliver their thinking process, alot of usability and exprerience input.
           Our conversion rate turns double! What a big impact!">
             <div className="md:flex">
@@ -39,7 +39,7 @@ const Home: NextPage = () => {
               </div>
             </figcaption>
             </div>
-        </Image4>
+        </LastBlock>
       </Layout>
     </div>
   );

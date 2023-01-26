@@ -34,8 +34,13 @@ const Footer: React.FC = () => {
           <img className="w-10 h-5" src="https://images.pexels.com/photos/1337388/pexels-photo-1337388.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Logo" />
         </div>
         <div className="">
-          <button className="text-sm text-inherit dark:text-slate-100">
-            Back On Top<BiArrowFromBottom />
+          <button className="flex flex-nowrap  text-sm text-inherit dark:text-slate-100">
+            <div>
+              Back On Top
+            </div>
+            <div className="pt-1 ml-2">
+              <BiArrowFromBottom />
+            </div>
           </button>
         </div>
         <div className="">
