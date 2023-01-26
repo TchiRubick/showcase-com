@@ -18,7 +18,7 @@ const Header: React.FC = () => {
   const currentRoute = router.pathname;
 
   const renderMenu = menus.map((menu) => (
-    <div className="flex" key={menu.url}>
+    <div className="flex items-center pr-2" key={menu.url}>
       <FaPlay 
         className={currentRoute === menu.url ? "text-blue-600 dark:text-white " : "invisible"}
       />
