@@ -38,7 +38,7 @@ const Header: React.FC = () => {
         </Link> 
         <div className="flex justify-center space-x-8 font-bold">     
           <div className="flex items-center">
-            {renderMenu};
+            {renderMenu}
           </div>
         </div>
         <div className="flex">
