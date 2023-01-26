@@ -5,7 +5,7 @@ type tProps = {
   text: string;
 };
 
-const Image4: React.FC<tProps> = (props) => {
+const LastBlock: React.FC<tProps> = (props) => {
   const {children, text,} = props;
 
   return (
@@ -23,4 +23,4 @@ const Image4: React.FC<tProps> = (props) => {
   );
 };
 
-export default Image4;
+export default LastBlock;

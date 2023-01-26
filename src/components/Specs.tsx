@@ -1,5 +1,5 @@
 import React from "react";
-import Body2 from "./Body2";
+import Body2 from "./AboutSpecs";
 import ImageSpecs from "./ImageSpecs";
 
 const Specs: React.FC = () => {
